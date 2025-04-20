@@ -17,8 +17,6 @@ return {
 
     -- 2️⃣ Rust 中的 <...> 支持 > 跳出闭合
     npairs.add_rules({
-      Rule("<", ">", "rust"),
-
       Rule(">", ">", "rust")
         :with_pair(function()
           return false
